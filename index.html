@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pan Caliente - Panadería de Barrio</title>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#FFFBF2;color:#2B1D14;line-height:1.6}
+h1,h2{font-family:'Instrument Serif',serif;font-weight:400}
+.top{padding:18px 24px;display:flex;justify-content:space-between;align-items:center;max-width:1200px;margin:0 auto}
+.badge{font-size:12px;letter-spacing:0.1em;text-transform:uppercase;border:1px solid #2B1D14;padding:6px 12px;border-radius:999px}
+.hero{max-width:1200px;margin:0 auto;padding:20px 24px 60px;display:grid;grid-template-columns:1.1fr 0.9fr;gap:32px;align-items:center}
+.hero h1{font-size:84px;line-height:0.9;letter-spacing:-0.02em}
+.hero p{margin-top:16px;font-size:17px;max-width:420px;opacity:0.8}
+.btn{display:inline-block;margin-top:24px;background:#2B1D14;color:#FFFBF2;padding:15px 28px;border-radius:999px;text-decoration:none;font-weight:600;font-size:15px}
+.hero-img{aspect-ratio:4/5;background:url('PAN.jpg') center/cover;border-radius:24px}
+.list{max-width:1200px;margin:0 auto;padding:0 24px 80px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.item{background:white;border:1px solid #EDE6D8;border-radius:20px;padding:22px}
+.item b{font-size:18px;font-family:'Instrument Serif',serif}
+.item span{display:block;margin-top:4px;font-size:14px;opacity:0.6}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.hero h1{font-size:56px}.hero-img{aspect-ratio:16/11;order:-1}.list{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="top"><div style="font-family:'Instrument Serif';font-size:20px">PAN CALIENTE</div><div class="badge">Moreno — Abierto 6 a 20hs</div></div>
+<div class="hero">
+  <div><h1>Pan de hoy,<br>hecho a mano.</h1><p>Facturas, bizcochos y pan recién horneado cada mañana. Pedí por WhatsApp y retirá en el local.</p><a class="btn" href="https://wa.me/5491130497635?text=Hola!%20Quiero%20hacer%20un%20pedido">Pedir por WhatsApp</a><p style="margin-top:14px;font-size:13px;opacity:0.5">Av. Libertador 1234, Moreno</p></div>
+  <div class="hero-img"></div>
+</div>
+<div class="list">
+  <div class="item"><b>Docena de facturas</b><span>Manteca y crema - $8.000</span></div>
+  <div class="item"><b>Pan casero 1kg</b><span>De masa madre - $3.500</span></div>
+  <div class="item"><b>Bizcochos 1/4</b><span>Dulces y salados - $2.000</span></div>
+</div>
+</body>
+</html>
