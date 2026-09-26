@@ -1,0 +1,91 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 42px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 25px;
+}
+
+.established {
+  font-style: italic;
+  color: #555;
+}
+
+.menu {
+  width: 90%;
+  max-width: 500px;
+  background-color: #fff8e7;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+img {
+  display: block;
+  margin: -15px auto 20px auto;
+  width: 50px;
+}
+
+hr {
+  height: 2px;
+  background-color: #8B4513;
+  border: none;
+  opacity: 0.3;
+}
+
+.bottom-line {
+  margin-top: 30px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+  font-weight: bold;
+  color: #5a2e0c;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.address {
+  margin-top: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #8B4513;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #b35d1a;
+}
