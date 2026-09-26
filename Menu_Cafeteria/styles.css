@@ -1,10 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: 'Segoe UI', sans-serif;
   padding: 20px;
-  margin: auto;
-  backgroud-color: burlywood;
-  
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: burlywood;
 }
 
 h1 {
@@ -22,17 +27,16 @@ h2 {
 }
 
 .established {
-  text_align: center;
+  text-align: center;
   font-style: italic;
   color: #555;
 }
 
 .menu {
-  width: 90%;
+  width: 100%;
   max-width: 500px;
   background-color: burlywood;
   margin: 40px auto;
-  margin-right: auto;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -73,8 +77,6 @@ hr {
   font-weight: bold;
   color: #5a2e0c;
 }
-
-/* FOOTER */
 
 footer {
   font-size: 14px;
